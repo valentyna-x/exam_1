@@ -211,7 +211,6 @@ body {
     list-style-type: none;
 
     @media screen and (max-width: 768px) {
-        position: absolute;
         right: 0;
         top: 16vh;
         width: 100vw;
@@ -222,6 +221,8 @@ body {
         gap: 20px;
         flex-direction: row;
         justify-content: center;
+        padding-bottom: 32px;
+        padding-top: 32px;
     }
 
     @media screen and (max-width: 576px) {
@@ -331,7 +332,7 @@ body {
         padding-right: 15px;
     }
     @media screen and (max-width: 768px) {
-        padding-bottom: 8vh;
+        
     }
 }
 
@@ -355,12 +356,11 @@ body {
     padding-top: 16vh;
 }
 
-.flex_container {
+.flex_container_why {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 121px;
-
 }
 
 .description {
@@ -410,14 +410,20 @@ body {
     position: relative;
     height: 306px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #333333;
+    justify-content: space-around;
 }
 
 .line {
-    position: absolute;
-    align-items: center;
-    justify-content: center;
+    margin-top: 40px;
+}
+
+.flex_container {
+    position: relative;
+    display: flex;
+    gap: 205px;
 }
 
 .steps_icon_search {
@@ -438,7 +444,8 @@ body {
     background-position-y: 28%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
     padding-top: 16vh;
 }
 
@@ -450,7 +457,6 @@ body {
     opacity: 0.9;
     padding-left: 32px;
     padding-right: 32px;
-    margin-left: -300px;
 }
 
 h4 {
@@ -471,13 +477,14 @@ h3 {
 .section_spain_2 {
     position: relative;
     height: 100vh;
-    background: url('../assets/img/banner_background_spain_2.png') no-repeat;
+    background: url(../assets/img/banner_background_spain_2.png) no-repeat;
     background-size: cover;
     background-position-y: 28%;
     display: flex;
     align-items: center;
-    flex-direction: column;
     padding-top: 16vh;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .description_spain_2 {
@@ -541,6 +548,7 @@ h3 {
 
 .sub-title_smaller {
     font-size: 14px;
+    margin: 0 0;
 }
 
 .social {
