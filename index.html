@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="scroll">
-                    <p class="scroll__text">Scrool down</p>
+                    <a href="#WhyChooseUs" class="scroll__text"> Scrool down</a>
                 </div>
             </section>
             <nav class="nav">
@@ -34,22 +34,22 @@
                 </div>
                 <ul class="menu">
                     <li class="menu__item">
-                        <a href="#" class="menu__link">Who We Are</a>
+                        <a href="#WhyChooseUs" class="menu__link">Who We Are</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">What We Do</a>
+                        <a href="#SectionSpain" class="menu__link">What We Do</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">Travel With Us</a>
+                        <a href="#SectionSteps" class="menu__link">Travel With Us</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">Contact Us</a>
+                        <a href="#ContactUs" class="menu__link">Contact Us</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main class="main">  
-            <section class="section section_why">
+            <section id="WhyChooseUs" class="section section_why">
                 <div class="flex_container_why">
                     <div class="description">
                         <h2 class="section__title">Why Choose Us</h2>
@@ -66,21 +66,31 @@
                     </div>
                 </div>
             </section>
-            <section class="section_steps">
-                <img class="line" src="./assets/img/line.svg" alt="line">
+            <section id="SectionSteps" class="section_steps">
                     <div class="flex_container">
-                        <svg width="64" height="64">
-                            <use xlink:href="./assets/sprite.svg#search" class="steps_icon_search"></use>
-                        </svg>
-                        <svg width="64" height="64">
-                            <use xlink:href="./assets/sprite.svg#check_circle" class="steps_icon_check"></use>
-                        </svg>
-                        <svg width="64" height="64">
-                            <use xlink:href="./assets/sprite.svg#thumbs_up" class="steps_icon_thumb"></use>
-                        </svg>
+                        <div class="line_icon_step">
+                            <svg width="64" height="64">
+                                <use xlink:href="./assets/sprite.svg#search" class="steps_icon_search"></use>
+                            </svg>
+                            <p class="icon_text" > Search Places</p>
+                        </div>
+
+                        <div class="line_icon_step">
+                            <svg width="64" height="64">
+                                <use xlink:href="./assets/sprite.svg#check_circle" class="steps_icon_check"></use>
+                            </svg>
+                            <p class="icon_text" > Select Places</p>
+                        </div> 
+
+                        <div class="line_icon_step">
+                            <svg width="64" height="64">
+                                <use xlink:href="./assets/sprite.svg#thumbs_up" class="steps_icon_thumb"></use>
+                            </svg>
+                            <p class="icon_text" > Book & Enjoy</p>
+                        </div>
                     </div>
             </section>
-            <section class="section section_spain">
+            <section id="SectionSpain" class="section section_spain">
                 <div class="description_spain">
                     <h4>Spain</h4>
                     <h3>Grand Spain Madrid</h3>
@@ -111,7 +121,7 @@
                 </div>
             </section>
         </main>
-    <footer class="footer">
+    <footer id="ContactUs" class="footer">
         <div class="footer_content">
             <h1 class="content__title title_smaller">Bhramaon</h1>
             <h3 class="content__sub-title sub-title_smaller">Safe Travel Anywhere</h3>
