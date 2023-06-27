@@ -66,7 +66,7 @@ a {
     padding: 0 24px;
   }
 }
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 576px) {
   .nav,
   .banner,
   .section_why,
@@ -74,7 +74,7 @@ a {
   .section_spain,
   .section_spain_2,
   .section_rev {
-    padding: 0 20px;
+    padding: 0 18px;
   }
 }
 
@@ -378,12 +378,12 @@ a {
 }
 @media screen and (max-width: 768px) {
   .section_why {
-    height: 100vh;
+    height: 140vh;
   }
 }
 @media screen and (max-width: 576px) {
   .section_why {
-    height: 100vh;
+    height: 124vh;
   }
 }
 
@@ -404,10 +404,12 @@ a {
     align-items: center;
     gap: 32px;
     text-align: center;
+    width: 100%;
   }
 }
 
 .description {
+  position: inherit;
   max-width: 558px;
 }
 @media screen and (max-width: 768px) {
@@ -453,8 +455,7 @@ a {
 @media screen and (max-width: 768px) {
   .illustrate {
     display: flex;
-    padding: 0px 0px;
-    gap: 24px;
+    gap: 12px;
   }
 }
 
@@ -493,9 +494,9 @@ a {
 }
 @media screen and (max-width: 768px) {
   .moved {
-    padding-left: 0px;
     width: 348px;
     height: 219px;
+    padding-left: 0px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -609,7 +610,7 @@ a {
 
 .description_spain,
 .description_spain_2 {
-  position: absolute;
+  position: inherit;
   max-width: 558px;
   height: 372px;
   background: #333333;
@@ -685,7 +686,12 @@ h3 {
 }
 @media screen and (max-width: 768px) {
   .section_rev {
-    height: 100vh;
+    height: 140vh;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section_rev {
+    height: 150vh;
   }
 }
 
@@ -694,15 +700,9 @@ h3 {
   align-items: center;
   padding-top: 60px;
 }
-@media screen and (max-width: 1024px) {
-  .flex_container_rev {
-    padding-top: 0px;
-  }
-}
 @media screen and (max-width: 768px) {
   .flex_container_rev {
     flex-direction: column;
-    padding-top: 0px;
   }
 }
 
@@ -728,7 +728,7 @@ h3 {
     background: url("../assets/img/rev_768.png") no-repeat;
   }
 }
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 576px) {
   .rev_photo {
     width: 540px;
     height: 336px;
@@ -742,7 +742,7 @@ h3 {
   height: 308px;
   flex-direction: column;
   background: #333333;
-  padding-top: 48px;
+  padding-top: 12px;
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -758,7 +758,7 @@ h3 {
     height: 308px;
   }
 }
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 576px) {
   .description_rev {
     width: 540px;
     height: 364px;

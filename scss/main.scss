@@ -48,8 +48,8 @@ a {
         padding: 0 24px;
     }
 
-    @media screen and (max-width:578px) {
-        padding: 0 20px;
+    @media screen and (max-width:576px) {
+        padding: 0 18px;
     }
 }
 
@@ -368,10 +368,10 @@ a {
     padding-top: 16vh;
 
     @media screen and (max-width: 768px) {
-        height: 100vh;
+        height: 140vh;
     }
     @media screen and (max-width:576px) { 
-        height: 100vh;
+        height: 124vh;
     }
 }
 
@@ -390,10 +390,12 @@ a {
         align-items: center;
         gap: 32px;
         text-align: center;
+        width: 100%;
     }
 }
 
 .description {
+    position: inherit;
     max-width: 558px;
 
     @media screen and (max-width:768px) {
@@ -437,8 +439,7 @@ a {
 .illustrate {
     @media screen and (max-width:768px) {
         display: flex;
-        padding: 0px 0px;
-        gap: 24px
+        gap: 12px
     }
 }
 
@@ -472,9 +473,10 @@ a {
     }
 
     @media screen and (max-width:768px) {
-        padding-left: 0px;
+        
         width: 348px;
         height: 219px;
+        padding-left: 0px;
     }
     @media screen and (max-width:576px) {
             width: 258px;
@@ -579,7 +581,7 @@ a {
 .description_spain,
 .description_spain_2 {
 
-    position: absolute;
+    position: inherit;
     max-width: 558px;
     height: 372px;
     background: #333333;
@@ -643,7 +645,11 @@ h3 {
     flex-direction: column;
 
     @media screen and (max-width: 768px) {
-        height: 100vh;
+        height: 140vh;
+    }
+
+    @media screen and (max-width: 576px) {
+        height: 150vh;
     }
 }
 
@@ -652,13 +658,8 @@ h3 {
     align-items: center;
     padding-top: 60px;
 
-    @media screen and (max-width:1024px) { 
-        padding-top: 0px;
-    }
-
     @media screen and (max-width:768px) {
-        flex-direction: column; 
-        padding-top: 0px;
+        flex-direction: column;  
     }
 }
 
@@ -682,7 +683,7 @@ h3 {
         background: url('../assets/img/rev_768.png') no-repeat;
     }
 
-    @media screen and (max-width: 578px) {
+    @media screen and (max-width: 576px) {
         width: 540px;
         height: 336px;
         background: url('../assets/img/rev_540.png') no-repeat;
@@ -695,7 +696,7 @@ h3 {
     height: 308px;
     flex-direction: column;
     background: #333333;
-    padding-top: 48px;
+    padding-top: 12px;
     padding-left: 60px;
     padding-right: 60px;
   
@@ -709,7 +710,7 @@ h3 {
         height: 308px; 
     }
 
-    @media screen and (max-width: 578px) {
+    @media screen and (max-width: 576px) {
         width: 540px;
         height: 364px; 
     }
